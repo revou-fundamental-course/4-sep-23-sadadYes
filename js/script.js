@@ -8,7 +8,7 @@ document.getElementById("calculateBtn").addEventListener("click", function() {
       document.getElementById("result").innerHTML = "Luas: " + area;
     } else if (calculationType === "perimeter") {
       var perimeter = 4 * sideLength;
-      document.getElementById("result").innerHTML = "Keliling " + perimeter;
+      document.getElementById("result").innerHTML = "Keliling: " + perimeter;
     }
   } else {
     document.getElementById("result").innerHTML = "Masukkan Panjang sisi.";
